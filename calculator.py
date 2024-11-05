@@ -2,6 +2,9 @@ def tambah(x, y):
     return x + y
 def kurang(x, y):
     return x - y
+# Menambahkan Fungsi untuk operasi perkalian
+def kali(x, y):
+    return x * y
         return x / y
     else:
         return "Pembagi harus > 0!"
