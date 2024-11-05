@@ -2,6 +2,9 @@ def tambah(x, y):
     return x + y
 def kurang(x, y):
     return x - y
+# Update menambah Fungsi untuk operasi pembagian
+def bagi(x, y):
+    if y != 0:
         return x / y
     else:
         return "Pembagi harus > 0!"
